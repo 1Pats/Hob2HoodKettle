@@ -14,7 +14,7 @@ Author: 1Pats@oto.lv, March 2024. Developed with help from Armin Joachimsmeyer (
    |---|---|
    | 1:15 (`BOILING_TIME/4`) | 1 |
    | 2:30 (`BOILING_TIME/2`) | 2 |
-   | 3:45 | `BOILING_TIME/4*3`| 3 |
+   | 3:45 (`BOILING_TIME/4*3`) | 3 |
    | 4:50 (`BOILING_TIME - 10 s`) | 4 (boost) |
 
 4. When the kettle switches off, the fan keeps running for another 15 s (`FAN_EXTRA`) and then turns off. The light turns off once the socket current drops below `A_START`.
